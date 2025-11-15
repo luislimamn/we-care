@@ -81,3 +81,52 @@ footer{
     color: #989d9d;
     text-align: center;
 }
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+    .link-header{
+        cursor: pointer;
+    }
+    .img-logo{
+        position: static;
+        max-width: 568px;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 80px auto 0 auto;
+    }
+    section{
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 50px;
+        display: block;
+        margin: 20px auto 0px auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+    h2{
+        font-size: 30px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    p#section{
+        display: none;
+    }
+    #btcontainer{
+        display: block;
+        margin: 0 auto;
+    }
+    footer{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 50px auto 20px auto;
+    }
+}
